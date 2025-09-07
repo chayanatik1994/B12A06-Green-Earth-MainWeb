@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Earth</title>
+    <!-- Tailwind Cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- Daisyui Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- style css -->
+     <link rel="stylesheet" href="style/style.css">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+         
 </head>
 <body>
-    
+    <!-- navbar Section -->
+  <section class="flex flex-col md:flex-row h-auto w-full bg-green-700 items-center justify-between p-4">
+    <div class="text-xl font-semibold text-white mb-4 md:mb-0">
+        <h1>Green Earth</h1>
+    </div>
+    <div class="flex space-x-4 md:space-x-6 mb-4 md:mb-0">
+        <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 list-none text-white text-center">
+            <li>About</li>
+            <li>Gallery</li>
+            <li>Plant a Tree</li>
+        </ul>
+    </div>
+    <button class="flex items-center justify-center bg-yellow-500  md:w-[131px] h-[43px] rounded-3xl px-4">
+        Plant a Tree
+    </button>
+  </section>
 </body>
 </html>
