@@ -8,16 +8,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
      <!-- Daisyui Cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <!-- style css -->
-     <link rel="stylesheet" href="style/style.css">
     <!-- fontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-         
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />   
 </head>
 <body>
     <!-- navbar Section -->
   <section class="nav-section flex flex-col md:flex-row h-auto w-full bg-green-700 items-center justify-between p-4 ">
-    <div class="text-xl font-semibold text-white mb-4 md:mb-0 px-10">
+    <div class="text-xl font-semibold text-white mb-4 sm:mb-0 px-10">
         <h1>Green Earth</h1>
     </div>
     <div class="flex space-x-4 md:space-x-6 mb-4 md:mb-0">
@@ -49,6 +46,20 @@
            </div>
         </div>
     </div>
+    <!-- Parts Of Tress Section , Categories, Cart and Choose the Cart -->
+           <section class="w-full bg-[#F0FDF4] p-4 flex h-[873px]">
+               <div id="categories-container" class="flex flex-col gap-2 p-4 bg-[#F0FDF4] w-full max-w-[250px] h-auto max-h-[479px] mx-2">
+                      <h2 class="text-black font-bold p-2 rounded-md mb-2 text-[24px] cursor-pointer text-center">Categories</h2>
+                      <button class="w-full bg-green-500 hover:bg-green-600 text-white p-2 rounded-md mb-4 text-lg">All Trees</button>
+              </div>
+                 <div class="w-3/4 p-4">
+                      <h2 class="text-2xl font-bold mb-4 justify-center items-center">Choose Your Trees</h2>
+                  <div id="tree-container" class="grid grid-cols-3 gap-6">
+                 </div>
+                 </div>
+
+          </section>
+
     <!-- Campaign Part -->
 <section class="campaign h-[610px] w-full flex justify-center items-center bg-[#F0FDF4] mt-4">
   <div class="text-center w-full md:w-3/4 lg:w-2/3">
@@ -128,5 +139,7 @@
        </div>
    </section>
 </footer>
+ <!-- Link to your JavaScript file -->
+<script src="script/index.js"></script>
 </body>
 </html>
